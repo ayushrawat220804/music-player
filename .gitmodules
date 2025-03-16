@@ -1,0 +1,5 @@
+# Create empty .gitmodules file
+echo "" > .gitmodules
+git add .gitmodules
+git commit -m "Add empty .gitmodules file"
+git push
